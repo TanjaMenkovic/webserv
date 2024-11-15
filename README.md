@@ -21,22 +21,22 @@ Core IRC Server Capabilities
 * Authentication: Clients authenticate using a password when connecting to the server.
 * Channels: Support for creating, joining, and managing channels.
 * Messaging:
-** Broadcast messages within a channel.
-** Direct messaging between users.
+  * Broadcast messages within a channel.
+  * Direct messaging between users.
 * User Roles:
-** Regular users.
-** Channel operators with special permissions.
+  * Regular users.
+  * Channel operators with special permissions.
 
 Operator Commands
 * KICK: Remove a user from a channel.
 * INVITE: Invite a user to a private channel.
 * TOPIC: Change or view a channel's topic.
 * MODE: Manage channel modes, including:
-** Invite-only channels.
-** Topic editing restrictions.
-** Password-protected channels.
-** User limits.
-** Operator privileges.
+  * Invite-only channels.
+  * Topic editing restrictions.
+  * Password-protected channels.
+  * User limits.
+  * Operator privileges.
 
 Non-blocking I/O
 * Handles multiple clients simultaneously using non-blocking sockets and the poll() system call.
